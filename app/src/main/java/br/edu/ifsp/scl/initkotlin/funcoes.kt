@@ -10,13 +10,14 @@ fun multiplo(a: Int, b: Int): Boolean {
     return false
 }
 
-fun Int.mutiploo(b: Int): Boolean {
+infix fun Int.mutiploo(b: Int): Boolean {
     return multiplo(this, b)
 }
 
 fun main() {
     println(multiplo(10, 2))
     println(11.mutiploo(2))
+    println(10 mutiploo(2))
 }
 
 
